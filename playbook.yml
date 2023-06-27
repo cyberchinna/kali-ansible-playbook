@@ -1,0 +1,47 @@
+---
+- name: Customize the Kali Linux VM
+  hosts: localhost
+  connection: local
+  become: yes
+  tasks: 
+    - name: Update and upgrade apt packages
+      ansible.builtin.apt:
+        update_cache: yes
+        upgrade: 'yes'
+
+    - name: Install Kali Linux packages
+      ansible.builtin.apt:
+        name: "{{ item }}"
+        state: present
+      loop: "{{ apt_packages }}"
+
+#    - name: Verify packages installation
+#      ansible.builtin.command:
+#        cmd: dpkg -s {{ item }}
+#      register: result
+#      failed_when: "'installed' not in result.stdout"
+#      loop: "{{ apt_packages }}"
+
+    - name: Install pip packages
+      ansible.builtin.pip:
+        name: "{{ item }}"
+        state: present
+      loop: "{{ pip_packages }}"
+
+    - name: Add the local user with bash shell
+      ansible.builtin.user:
+        name: "{{ local_user }}"
+        shell: /bin/bash
+        groups: sudo
+        append: yes
+      become: yes 
+  
+
+    - name: Install github tools
+      ansible.builtin.git:
+        repo: "{{ item.repo }}"
+        dest: "{{ item.path }}/{{ item.dir_name }}"
+        force: true
+      loop: "{{ git_repos }}"
+      loop_control:
+        label: "{{item.repo}}"
