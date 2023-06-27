@@ -75,14 +75,22 @@ Once the repo has been downloaded, change into the ansible-playbook directory. E
 
 1. Change into the ansible repository.
     ```bash
-    git <repo>
-    cd ansible-playbook
+    git clone https://github.com/cyberchinna/kali-ansible-playbook.git
+    cd kali-ansible-playbook
     ``` 
 
 2. Execute the playbook:
     ```bash
-    ansible-playbook playbook.yml
+    ansible-playbook -i ansible/local.ini playbook.yml -K 
     ```
+
+3. Set the user
+   In order to create a new user, modify the `main.yml` file in the `group_vars/localhost` directory. Modify the
+   local_user variable.
+   ```bash
+   # New user to add
+   local_user: <user>
+   ```
 
 ## Authors <a name = "authors"></a>
 
