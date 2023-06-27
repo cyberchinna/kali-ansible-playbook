@@ -1,0 +1,72 @@
+---
+# New user to add
+local_user: <user>
+
+# Kali Linux Packages 
+apt_packages:
+  - assetfinder 
+  - bettercap
+  - bloodhound
+  - build-essential
+  - chromium
+  - dnsutils
+  - evince
+  - eyewitness
+  - feroxbuster
+  - ffuf
+  - flameshot
+  - gdb
+  - gdbserver
+  - gem
+  - gobuster
+  - golang
+  - jq
+  - mingw-w64
+  - mimikatz
+  - msfpc
+  - nbtscan-unixwiz
+  - ncat
+  - neo4j
+  - nuclei
+  - openvas
+  - parallel
+  - peass
+  - powershell-empire
+  - rlwrap
+  - ruby
+  - ruby-dev
+  - seclists
+  - sherlock
+  - sublist3r
+  - xxd 
+ 
+pip_packages:
+  - ldap3
+  - minikerberos
+  - mitm6
+  - python3-ldap
+
+
+
+git_repos: 
+  - {path: "/opt/network-tools", dir_name: "PowerSploit", repo: "https://github.com/PowerShellMafia/PowerSploit"} 
+  - {path: "/opt/network-tools", dir_name: "Invoke-Obfuscation", repo: "https://github.com/danielbohannon/Invoke-Obfuscation.git"} 
+  - {path: "/opt/network-tools", dir_name: "Veil", repo: "https://github.com/Veil-Framework/Veil.git"}
+  - {path: "/opt/network-tools", dir_name: "Eviltree", repo: "https://github.com/t3l3machus/eviltree.git"} 
+  - {path: "/opt/network-tools", dir_name: "SeeYouCM-Thrief", repo: "https://github.com/trustedsec/SeeYouCM-Thief"}
+  - {path: "/opt/network-tools", dir_name: "PCredz", repo: "https://github.com/lgandx/PCredz"} 
+  - {path: "/opt/network-tools", dir_name: "ADRecon", repo: "https://github.com/sense-of-security/ADRecon.git"}
+  - {path: "/opt/network-tools", dir_name: "Kerbrute", repo: "https://github.com/ropnop/kerbrute"}
+  - {path: "/opt/network-tools", dir_name: "Scavenger", repo: "https://github.com/SpiderLabs/scavenger"} 
+  - {path: "/opt/network-tools", dir_name: "Chimera", repo: "https://github.com/tokyoneon/chimera"}
+  - {path: "/opt/network-tools", dir_name: "Evil-Winrm", repo: "https://github.com/Hackplayers/evil-winrm.git"}
+  - {path: "/opt/network-tools", dir_name: "WMIOps", repo: "https://github.com/FortyNorthSecurity/WMIOps"}
+  - {path: "/opt/network-tools", dir_name: "Impacket", repo: "https://github.com/SecureAuthCorp/impacket.git"}
+  - {path: "/opt/network-tools", dir_name: "Exploit-suggester", repo: "https://github.com/jondonas/linux-exploit-suggester-2.git"}
+  - {path: "/opt/network-tools", dir_name: "SharpCollection", repo: "https://github.com/Flangvik/SharpCollection.git"}
+  - {path: "/opt/network-tools", dir_name: "Ntlm_theft", repo: "https://github.com/Greenwolf/ntlm_theft.git"}
+  - {path: "/opt/network-tools", dir_name: "Aspx-reverse-shell", repo: "https://github.com/borjmz/aspx-reverse-shell.git"}
+
+  # Web Tools   
+  - {path: "/opt/web-tools", dir_name: "Sqlmap", repo: "https://github.com/sqlmapproject/sqlmap.git"} 
+
