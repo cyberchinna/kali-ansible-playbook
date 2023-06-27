@@ -35,9 +35,18 @@ Please note that the playbook should be customized according to your specific ne
 
 List the prerequisites and requirements for running your playbook. Include the following information:
 
-- Supported operating systems
+- Supported operating systems: Kali Linux
 - Ansible version requirements
+  ```bash
+  sudo apt update
+  sudo apt install software-properties-common
+  sudo apt-add-repository --yes --update ppa:ansible/ansible
+  sudo apt install ansible
+  ```
 - Any additional dependencies or software packages
+  ```bash
+  sudo apt install sshpass
+  ```
 
 ## Installation <a name = "installation"></a>
 
