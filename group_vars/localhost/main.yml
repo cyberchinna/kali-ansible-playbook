@@ -66,6 +66,8 @@ git_repos:
   - {path: "/opt/network-tools", dir_name: "SharpCollection", repo: "https://github.com/Flangvik/SharpCollection.git"}
   - {path: "/opt/network-tools", dir_name: "Ntlm_theft", repo: "https://github.com/Greenwolf/ntlm_theft.git"}
   - {path: "/opt/network-tools", dir_name: "Aspx-reverse-shell", repo: "https://github.com/borjmz/aspx-reverse-shell.git"}
+  - {path: "/opt/network-tools", dir_name: "adPEAS", repo: "https://github.com/61106960/adPEAS.git"}
+
 
   # Web Tools   
   - {path: "/opt/web-tools", dir_name: "Sqlmap", repo: "https://github.com/sqlmapproject/sqlmap.git"} 
