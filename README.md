@@ -5,7 +5,11 @@
 ---
 
 <p align="center">  This Ansible playbook provides a streamlined solution for customizing newly installed Kali Linux images. With regular updates and tailored configurations, it enables you to quickly and efficiently set up a customized Kali Linux environment to meet your organization's specific needs. The playbook installs essential Linux packages and incorporates various tools from GitHub repositories. Furthermore, it offers flexibility for expansion, allowing you to add new tasks and roles as your requirements evolve.
+<<<<<<< HEAD
  <br><br>
+=======
+ <br>
+>>>>>>> 0d866cc (Uploaded files)
 </p>
 
 ## Table of Contents
@@ -35,6 +39,7 @@ Please note that the playbook should be customized according to your specific ne
 
 List the prerequisites and requirements for running your playbook. Include the following information:
 
+<<<<<<< HEAD
 - Supported operating systems: Kali Linux
 - Ansible version requirements
   ```bash
@@ -47,6 +52,11 @@ List the prerequisites and requirements for running your playbook. Include the f
   ```bash
   sudo apt install sshpass
   ```
+=======
+- Supported operating systems
+- Ansible version requirements
+- Any additional dependencies or software packages
+>>>>>>> 0d866cc (Uploaded files)
 
 ## Installation <a name = "installation"></a>
 
@@ -75,12 +85,18 @@ Once the repo has been downloaded, change into the ansible-playbook directory. E
 
 1. Change into the ansible repository.
     ```bash
+<<<<<<< HEAD
     git clone https://github.com/cyberchinna/kali-ansible-playbook.git
     cd kali-ansible-playbook
+=======
+    git <repo>
+    cd ansible-playbook
+>>>>>>> 0d866cc (Uploaded files)
     ``` 
 
 2. Execute the playbook:
     ```bash
+<<<<<<< HEAD
     ansible-playbook -i ansible/local.ini playbook.yml -K 
     ```
 
@@ -92,6 +108,11 @@ Once the repo has been downloaded, change into the ansible-playbook directory. E
    local_user: <user>
    ```
 
+=======
+    ansible-playbook playbook.yml
+    ```
+
+>>>>>>> 0d866cc (Uploaded files)
 ## Authors <a name = "authors"></a>
 
 - [@cyberchinna](https://github.com/cyberchinna) 
