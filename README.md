@@ -5,7 +5,6 @@
 ---
 
 <p align="center">  This Ansible playbook provides a streamlined solution for customizing newly installed Kali Linux images. With regular updates and tailored configurations, it enables you to quickly and efficiently set up a customized Kali Linux environment to meet your organization's specific needs. The playbook installs essential Linux packages and incorporates various tools from GitHub repositories. Furthermore, it offers flexibility for expansion, allowing you to add new tasks and roles as your requirements evolve.
-<<<<<<< HEAD
  <br><br>
 </p>
 
