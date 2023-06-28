@@ -47,8 +47,8 @@ List the prerequisites and requirements for running your playbook. Include the f
   ```bash
   sudo apt install sshpass
   ```
-=======
 - Supported operating systems
+    - Debian based
 - Ansible version requirements
 - Any additional dependencies or software packages
 
