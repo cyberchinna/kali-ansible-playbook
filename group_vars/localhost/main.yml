@@ -37,6 +37,7 @@ apt_packages:
   - ruby-dev
   - seclists
   - sherlock
+  - smtp-user-enum
   - sublist3r
   - xxd 
  
@@ -45,8 +46,6 @@ pip_packages:
   - minikerberos
   - mitm6
   - python3-ldap
-
-
 
 git_repos: 
   - {path: "/opt/network-tools", dir_name: "PowerSploit", repo: "https://github.com/PowerShellMafia/PowerSploit"} 
@@ -67,8 +66,9 @@ git_repos:
   - {path: "/opt/network-tools", dir_name: "Ntlm_theft", repo: "https://github.com/Greenwolf/ntlm_theft.git"}
   - {path: "/opt/network-tools", dir_name: "Aspx-reverse-shell", repo: "https://github.com/borjmz/aspx-reverse-shell.git"}
   - {path: "/opt/network-tools", dir_name: "adPEAS", repo: "https://github.com/61106960/adPEAS.git"}
+  - {path: "/opt/network-tools", dir_name: "hoaxshell", repo: "https://github.com/t3l3machus/hoaxshell.git"}
 
-
+https://github.com/t3l3machus/hoaxshell.git
   # Web Tools   
   - {path: "/opt/web-tools", dir_name: "Sqlmap", repo: "https://github.com/sqlmapproject/sqlmap.git"} 
 
