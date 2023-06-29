@@ -46,6 +46,7 @@ pip_packages:
   - minikerberos
   - mitm6
   - python3-ldap
+  - uploadserver
 
 git_repos: 
   - {path: "/opt/network-tools", dir_name: "PowerSploit", repo: "https://github.com/PowerShellMafia/PowerSploit"} 
@@ -67,8 +68,10 @@ git_repos:
   - {path: "/opt/network-tools", dir_name: "Aspx-reverse-shell", repo: "https://github.com/borjmz/aspx-reverse-shell.git"}
   - {path: "/opt/network-tools", dir_name: "adPEAS", repo: "https://github.com/61106960/adPEAS.git"}
   - {path: "/opt/network-tools", dir_name: "hoaxshell", repo: "https://github.com/t3l3machus/hoaxshell.git"}
+  - {path: "/opt/network-tools", dir_name: "RDPChecker", repo: "https://github.com/Hypnoze57/RDPChecker.git"}
+  - {path: "/opt/network-tools", dir_name: "PEASS-ng", repo: "https://github.com/carlospolop/PEASS-ng.git"}
 
-https://github.com/t3l3machus/hoaxshell.git
+
   # Web Tools   
   - {path: "/opt/web-tools", dir_name: "Sqlmap", repo: "https://github.com/sqlmapproject/sqlmap.git"} 
 
