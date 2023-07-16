@@ -47,6 +47,7 @@ pip_packages:
   - mitm6
   - python3-ldap
   - uploadserver
+  - updog
 
 git_repos: 
   - {path: "/opt/network-tools", dir_name: "PowerSploit", repo: "https://github.com/PowerShellMafia/PowerSploit"} 
