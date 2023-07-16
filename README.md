@@ -88,7 +88,7 @@ Once the repo has been downloaded, change into the ansible-playbook directory. E
     ansible-playbook -i ansible/local.ini playbook.yml -K 
     ```
 
-3. Set the user
+3. Set the user  
    In order to create a new user, modify the `main.yml` file in the `group_vars/localhost` directory. Modify the
    local_user variable.
    ```bash
