@@ -43,7 +43,7 @@ List the prerequisites and requirements for running your playbook. Include the f
   sudo apt-add-repository --yes --update ppa:ansible/ansible
   sudo apt install ansible -y
   ```
-**_NOTE_**
+**_NOTE:_**  
  If you release an eror on step three, please run `sudo apt install python3-launchpadlib` and re-run step 3.
  
 - Any additional dependencies or software packages
