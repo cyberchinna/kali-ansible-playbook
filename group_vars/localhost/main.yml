@@ -9,6 +9,7 @@ apt_packages:
   - bloodhound
   - build-essential
   - chromium
+  - code-oss
   - dnsutils
   - evince
   - eyewitness
@@ -42,7 +43,9 @@ apt_packages:
   - xxd 
  
 pip_packages:
+  - dnspython
   - ldap3
+  - ldapdomaindump
   - minikerberos
   - mitm6
   - python3-ldap
@@ -62,7 +65,7 @@ git_repos:
   - {path: "/opt/network-tools", dir_name: "Chimera", repo: "https://github.com/tokyoneon/chimera"}
   - {path: "/opt/network-tools", dir_name: "Evil-Winrm", repo: "https://github.com/Hackplayers/evil-winrm.git"}
   - {path: "/opt/network-tools", dir_name: "WMIOps", repo: "https://github.com/FortyNorthSecurity/WMIOps"}
-  - {path: "/opt/network-tools", dir_name: "Impacket", repo: "https://github.com/SecureAuthCorp/impacket.git"}
+  - {path: "/opt/network-tools", dir_name: "Impacket", repo: "https://github.com/mpgn/CrackMapExec"}
   - {path: "/opt/network-tools", dir_name: "Exploit-suggester", repo: "https://github.com/jondonas/linux-exploit-suggester-2.git"}
   - {path: "/opt/network-tools", dir_name: "SharpCollection", repo: "https://github.com/Flangvik/SharpCollection.git"}
   - {path: "/opt/network-tools", dir_name: "Ntlm_theft", repo: "https://github.com/Greenwolf/ntlm_theft.git"}
@@ -71,8 +74,8 @@ git_repos:
   - {path: "/opt/network-tools", dir_name: "hoaxshell", repo: "https://github.com/t3l3machus/hoaxshell.git"}
   - {path: "/opt/network-tools", dir_name: "RDPChecker", repo: "https://github.com/Hypnoze57/RDPChecker.git"}
   - {path: "/opt/network-tools", dir_name: "PEASS-ng", repo: "https://github.com/carlospolop/PEASS-ng.git"}
-
-
+  - {path: "/opt/network-tools", dir_name: "PlumHound", repo: "https://github.com/PlumHound/PlumHound.git"}
+  
   # Web Tools   
   - {path: "/opt/web-tools", dir_name: "Sqlmap", repo: "https://github.com/sqlmapproject/sqlmap.git"} 
 
