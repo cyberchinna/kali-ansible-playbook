@@ -38,7 +38,7 @@ List the prerequisites and requirements for running your playbook. Include the f
 - Supported operating systems: Kali Linux
 - Ansible version requirements
   ```bash
-  sudo apt update
+  sudo apt update -y && sudo apt upgrade -y
   sudo apt install software-properties-common
   sudo apt-add-repository --yes --update ppa:ansible/ansible
   sudo apt install ansible
