@@ -32,6 +32,7 @@ apt_packages:
   - openvas
   - parallel
   - peass
+  - pipx
   - powershell-empire
   - rlwrap
   - ruby
