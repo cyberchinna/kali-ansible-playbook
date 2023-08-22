@@ -4,10 +4,10 @@
   connection: local
   become: yes
   tasks: 
-    - name: Update and upgrade apt packages
-      ansible.builtin.apt:
-        update_cache: yes
-        upgrade: 'yes'
+#    - name: Update and upgrade apt packages
+#      ansible.builtin.apt:
+#        update_cache: yes
+#        upgrade: 'yes'
 
     - name: Install Kali Linux packages
       ansible.builtin.apt:
