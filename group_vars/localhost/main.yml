@@ -33,6 +33,7 @@ apt_packages:
   - parallel
   - peass
   - pipx
+  - powershell
   - powershell-empire
   - rlwrap
   - ruby
