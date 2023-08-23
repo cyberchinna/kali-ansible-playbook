@@ -56,20 +56,20 @@ pip_packages:
 
 git_repos: 
   - {path: "/opt/pentest-tools", dir_name: "PowerSploit", repo: "https://github.com/PowerShellMafia/PowerSploit"} 
-  - {path: "/opt/pentest-toolss", dir_name: "Invoke-Obfuscation", repo: "https://github.com/danielbohannon/Invoke-Obfuscation.git"} 
-  - {path: "/opt/pentest-toolss", dir_name: "Veil", repo: "https://github.com/Veil-Framework/Veil.git"}
+  - {path: "/opt/pentest-tools", dir_name: "Invoke-Obfuscation", repo: "https://github.com/danielbohannon/Invoke-Obfuscation.git"} 
+  - {path: "/opt/pentest-tools", dir_name: "Veil", repo: "https://github.com/Veil-Framework/Veil.git"}
   - {path: "/opt/pentest-tools", dir_name: "Eviltree", repo: "https://github.com/t3l3machus/eviltree.git"} 
   - {path: "/opt/pentest-tools", dir_name: "SeeYouCM-Thrief", repo: "https://github.com/trustedsec/SeeYouCM-Thief"}
   - {path: "/opt/pentest-tools", dir_name: "PCredz", repo: "https://github.com/lgandx/PCredz"} 
   - {path: "/opt/pentest-tools", dir_name: "ADRecon", repo: "https://github.com/sense-of-security/ADRecon.git"}
-  - {path: "/opt/pentest-toolss", dir_name: "Kerbrute", repo: "https://github.com/ropnop/kerbrute"}
+  - {path: "/opt/pentest-tools", dir_name: "Kerbrute", repo: "https://github.com/ropnop/kerbrute"}
   - {path: "/opt/pentest-tools", dir_name: "Scavenger", repo: "https://github.com/SpiderLabs/scavenger"} 
   - {path: "/opt/pentest-tools", dir_name: "Chimera", repo: "https://github.com/tokyoneon/chimera"}
   - {path: "/opt/pentest-tools", dir_name: "Evil-Winrm", repo: "https://github.com/Hackplayers/evil-winrm.git"}
   - {path: "/opt/pentest-tools", dir_name: "WMIOps", repo: "https://github.com/FortyNorthSecurity/WMIOps"}
   - {path: "/opt/pentest-tools", dir_name: "Impacket", repo: "https://github.com/mpgn/CrackMapExec"}
   - {path: "/opt/pentest-tools", dir_name: "Exploit-suggester", repo: "https://github.com/jondonas/linux-exploit-suggester-2.git"}
-  - {path: "/opt/pentest-toolss", dir_name: "SharpCollection", repo: "https://github.com/Flangvik/SharpCollection.git"}
+  - {path: "/opt/pentest-tools", dir_name: "SharpCollection", repo: "https://github.com/Flangvik/SharpCollection.git"}
   - {path: "/opt/pentest-tools", dir_name: "Ntlm_theft", repo: "https://github.com/Greenwolf/ntlm_theft.git"}
   - {path: "/opt/pentest-tools", dir_name: "Aspx-reverse-shell", repo: "https://github.com/borjmz/aspx-reverse-shell.git"}
   - {path: "/opt/pentest-tools", dir_name: "adPEAS", repo: "https://github.com/61106960/adPEAS.git"}
