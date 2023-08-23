@@ -44,7 +44,7 @@ List the prerequisites and requirements for running your playbook. Include the f
   sudo apt install ansible -y
   ```
 **_NOTE:_**  
- If you recieve an eror on step three, there may be a [bug](https://www.linuxquestions.org/questions/debian-26/debian-bullseye-sid-add-apt-repository-not-working-python-problem-4175720821/#post6403993). Please run `sudo apt install python3-launchpadlib` and re-run step 3 as noted found on this [page](https://www.mail-archive.com/debian-bugs-dist@lists.debian.org/msg1891547.html).
+ If you recieve an eror on step three, there may be a [bug](https://www.linuxquestions.org/questions/debian-26/debian-bullseye-sid-add-apt-repository-not-working-python-problem-4175720821/#post6403993). Please run **`sudo apt install python3-launchpadlib -y`** and re-run step 3 as noted found on this [page](https://www.mail-archive.com/debian-bugs-dist@lists.debian.org/msg1891547.html).
  
 - Any additional dependencies or software packages
   ```bash
