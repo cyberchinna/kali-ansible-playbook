@@ -37,6 +37,7 @@ List the prerequisites and requirements for running your playbook. Include the f
 
 - Supported operating systems: Kali Linux
 - Ansible version requirements
+  
   ```bash
   sudo apt update -y && sudo apt upgrade -y
   sudo apt install software-properties-common -y
@@ -47,6 +48,7 @@ List the prerequisites and requirements for running your playbook. Include the f
  If you recieve an eror on step three, there may be a [bug](https://www.linuxquestions.org/questions/debian-26/debian-bullseye-sid-add-apt-repository-not-working-python-problem-4175720821/#post6403993). Please run **`sudo apt install python3-launchpadlib -y`** and re-run step 3 as noted found on this [page](https://www.mail-archive.com/debian-bugs-dist@lists.debian.org/msg1891547.html).
  
 - Any additional dependencies or software packages
+  
   ```bash
   sudo apt install sshpass
   ```
@@ -60,6 +62,7 @@ List the prerequisites and requirements for running your playbook. Include the f
 Provide step-by-step instructions on how to install and use your playbook. Include the following information:
 
 1. Clone the repository:
+   
    ```bash
    git clone https://github.com/cyberchinna/kali-ansible-playbook.git
    ```
@@ -84,6 +87,7 @@ Once the repo has been downloaded, change into the ansible-playbook directory. E
    local_user: cyberchinna
    ```
 4. Execute the playbook:
+   
     ```bash
     ansible-playbook -i ansible/local.ini playbook.yml -K 
     ```
