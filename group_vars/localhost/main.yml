@@ -1,6 +1,6 @@
 ---
 # New user to add
-local_user: <user>
+local_user: cyberchinna
 
 # Kali Linux Packages 
 apt_packages:
