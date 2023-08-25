@@ -11,6 +11,7 @@ apt_packages:
   - chromium
   - code-oss
   - dnsutils
+  - docker.io
   - evince
   - eyewitness
   - feroxbuster
@@ -33,6 +34,7 @@ apt_packages:
   - parallel
   - peass
   - pipx
+  - podman-docker
   - powershell
   - powershell-empire
   - rlwrap
