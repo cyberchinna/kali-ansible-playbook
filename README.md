@@ -62,19 +62,8 @@ Provide step-by-step instructions on how to install and use your playbook. Inclu
 1. Clone the repository:
    ```bash
    # Clone repo and move to directory 
-   git clone https://github.com/your-username/your-repo.git
-   cd repo
+   git clone https://github.com/cyberchinna/kali-ansible-playbook.git
    ```
-
-2. Install any necessary dependencies or requirments:
-    ```bash
-    # Provide the neccessary installation commands
-    ```
-
-3. Configure the playbook variables:
-    ```bash
-    # Describle any variables that need to be set and how to set them 
-    ```
 
 ## Usage <a name = "usage"></a>
 
@@ -82,9 +71,9 @@ Once the repo has been downloaded, change into the ansible-playbook directory. E
 
 1. Change into the ansible repository.
     ```bash
-    git clone https://github.com/cyberchinna/kali-ansible-playbook.git
     cd kali-ansible-playbook
     ```
+    
 2. Set the user  
    In order to create a new user, modify the `main.yml` file in the `group_vars/localhost` directory. Modify the
    local_user variable.
@@ -93,8 +82,8 @@ Once the repo has been downloaded, change into the ansible-playbook directory. E
    ```
    
    ```bash
-   # New user to add
-   local_user: <user>
+   # New user to add (Change from user cyberchinna)
+   local_user: cyberchinna
    ```
 4. Execute the playbook:
     ```bash
