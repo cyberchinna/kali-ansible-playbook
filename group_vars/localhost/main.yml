@@ -80,6 +80,7 @@ git_repos:
   - {path: "/opt/pentest-tools", dir_name: "PEASS-ng", repo: "https://github.com/carlospolop/PEASS-ng.git"}
   - {path: "/opt/pentest-tools", dir_name: "PlumHound", repo: "https://github.com/PlumHound/PlumHound.git"}
   - {path: "/opt/pentest-tools", dir_name: "Bloodhound.py", repo: "https://github.com/dirkjanm/BloodHound.py.git"}
+  - {path: "/opt/pentest-tools", dir_name: "ConPtyShell", repo: "https://github.com/antonioCoco/ConPtyShell.git"}
     
   # Web Tools   
   - {path: "/opt/web-tools", dir_name: "Sqlmap", repo: "https://github.com/sqlmapproject/sqlmap.git"} 
